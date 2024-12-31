@@ -28,6 +28,8 @@ public:
         cout << "Roll Number: " << rollNumber << endl;
         cout << "Name: " << name << endl;
         cout << "Grade: " << grade << endl;
+        cout << "Registration number:" << registration number << endl;
+        cout << "Gender:" << Gender << endl;
     }
 };
 
