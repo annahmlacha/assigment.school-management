@@ -10,12 +10,14 @@ public:
     string name;
     int rollNumber;
     char grade;
+    int age;
 
     // Constructor to initialize a student
     Student(string name, int rollNumber, char grade) {
         this->name = name;
         this->rollNumber = rollNumber;
         this->grade = grade;
+        
     }
 
     // Function to display student details
@@ -80,6 +82,7 @@ int main() {
         cout << "2. Display Students\n";
         cout << "3. Exit\n";
         cout << "Enter your choice: ";
+        cout << "Enter your age:";
         cin >> choice;
 
         switch (choice) {
