@@ -11,6 +11,9 @@ public:
     int rollNumber;
     char grade;
     int age;
+    int registration number;
+    string gender;
+
 
     // Constructor to initialize a student
     Student(string name, int rollNumber, char grade) {
@@ -39,6 +42,8 @@ public:
         string name;
         int rollNumber;
         char grade;
+        int registration number;
+        string gender;
 
         cout << "Enter student's name: ";
         cin.ignore();  // to clear the input buffer
@@ -83,6 +88,8 @@ int main() {
         cout << "3. Exit\n";
         cout << "Enter your choice: ";
         cout << "Enter your age:";
+        cout << "Enter your registration number:";
+        cout << "Enter your gender:";
         cin >> choice;
 
         switch (choice) {
